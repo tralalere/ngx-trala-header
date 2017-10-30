@@ -1,148 +1,106 @@
 <div id="appBlocHead" class="appBlocHead bootstrap-iso">
-  <div class="appLoginBar">
-    <div class="w-100 blocLoginNav">
-      <div class="customMenu" [ngClass]="{'startAnimation':startAnimation}">
-        <ul class="list-group">
-          <li class="list-group-item justify-content-between">
-            RESSOURCES TRALALERE
-          </li>
-          <li class="list-group-item justify-content-between">
+    <div class="appLoginBar">
+        <div class="w-100 blocLoginNav">
+            <div class="customMenu" [ngClass]="{'startAnimation':startAnimation}">
+                <ul class="list-group">
+                    <li class="list-group-item justify-content-between">
+                        RESSOURCES TRALALERE
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        <a class="badge badge-default badge-pill" href="https://www.vinzetlou.net/fr" target="_blank" title="Vinz et Lou"><img src="https://www.tralalere.com/header/images/vinz-lou.png" alt="Vinz et Lou">Vinz et Lou</a>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        <a class="badge badge-default badge-pill" href="https://www.code-decode.net/" target="_blank" title="Code-Decode"><img src="https://www.tralalere.com/header/images/code-decode.png" alt="Code-Decode">Code-Decode</a>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        <a class="badge badge-default badge-pill" href="https://www.conte-moi.net/" target="_blank" title="Conte-moi"><img src="https://www.tralalere.com/header/images/conte-moi.png" alt="Conte-moi">Conte-moi</a>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        <a class="badge badge-default badge-pill" href="https://www.isoloir.net/" target="_blank" title="L'isoloir"><img src="https://www.tralalere.com/header/images/isoloir.png" alt="L'isoloir">L'isoloir</a>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        <a class="badge badge-default badge-pill" href="http://www.histoiresfarfelues.com/" target="_blank" title="Les histoires farfelues"><img src="https://www.tralalere.com/header/images/histoires-farfelues.png" alt="Les histoires farfelues">Les histoires farfelues</a>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        <a class="badge badge-default badge-pill" href="https://www.stoplaviolence.net/" target="_blank" title="Stop la violence !"><img src="https://www.tralalere.com/header/images/stop-violence.png" alt="Stop la violence !">Stop la violence !</a>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        <a class="badge badge-default badge-pill" href="http://www.2020energy.eu/" target="_blank" title="2020 ENERGY"><img src="https://www.tralalere.com/header/images/2020-energy.png" alt="2020 ENERGY">2020 ENERGY</a>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        <a class="badge badge-default badge-pill" href="http://www.2025exmachina.net/" target="_blank" title="2025 exmachina"><img src="https://www.tralalere.com/header/images/2025-exmachina.png" alt="2025 exmachina">2025 exmachina</a>
+                    </li>
+                </ul>
 
-            <a class="badge badge-default badge-pill" href="https://www.vinzetlou.net/fr" target="_blank" title="Vinz et Lou"><img src="https://www.tralalere.com/medias/header/2020.png" alt="Vinz et Lou">Vinz et Lou</a>
-          </li>
-          <li class="list-group-item justify-content-between">
-            <a class="badge badge-default badge-pill" href="https://www.code-decode.net/" target="_blank" title="Code-Decode"><img src="https://www.tralalere.com/medias/header/2020.png" alt="Code-Decode">Code-Decode</a>
-          </li>
-          <li class="list-group-item justify-content-between">
-            <a class="badge badge-default badge-pill" href="https://www.conte-moi.net/" target="_blank" title="Conte-moi"><img src="https://www.tralalere.com/medias/header/2020.png" alt="Conte-moi">Conte-moi</a>
-          </li>
-          <li class="list-group-item justify-content-between">
-            <a class="badge badge-default badge-pill" href="https://www.isoloir.net/" target="_blank" title="L'isoloir"><img src="https://www.tralalere.com/medias/header/2020.png" alt="L'isoloir">L'isoloir</a>
-          </li>
-          <li class="list-group-item justify-content-between">
-            <a class="badge badge-default badge-pill" href="http://www.histoiresfarfelues.com/" target="_blank" title="Les histoires farfelues"><img src="https://www.tralalere.com/medias/header/2020.png" alt="Les histoires farfelues">Les histoires farfelues</a>
-          </li>
-          <li class="list-group-item justify-content-between">
-            <a class="badge badge-default badge-pill" href="https://www.stoplaviolence.net/" target="_blank" title="Stop la violence !"><img src="https://www.tralalere.com/medias/header/2020.png" alt="Stop la violence !">Stop la violence !</a>
-          </li>
-          <li class="list-group-item justify-content-between">
-            <a class="badge badge-default badge-pill" href="http://www.2020energy.eu/" target="_blank" title="2020 ENERGY"><img src="https://www.tralalere.com/medias/header/2020.png" alt="2020 ENERGY">2020 ENERGY</a>
-          </li>
-          <li class="list-group-item justify-content-between">
-            <a class="badge badge-default badge-pill" href="http://www.2025exmachina.net/" target="_blank" title="2025 exmachina"><img src="https://www.tralalere.com/medias/header/2020.png" alt="2025 exmachina">2025 exmachina</a>
-          </li>
-        </ul>
-
-        <div (click)="toggleNav()" class="backdrop"></div>
-      </div>
-      <div class="collapse burgerNav color-font" id="navbarToggleExternalContent">
+                <div (click)="toggleNav()" class="backdrop"></div>
+            </div>
+            <div class="collapse burgerNav color-font" id="navbarToggleExternalContent">
 
 
-      </div>
-      <nav class="navbar navbar-toggler-md flex-row">
-        <div class="d-flex col-6 flex-row blocLeftNav">
-          <a class="nav-item nav-link link-trala" href="https://www.tralalere.com" target="_blank"><img src="https://www.tralalere.com/medias/icons/tralalere_logo.png"></a>
+            </div>
+            <nav class="navbar navbar-toggler-md flex-row">
+                <div class="d-flex col-6 flex-row blocLeftNav">
+                    <a class="nav-item nav-link link-trala" href="https://www.tralalere.com" target="_blank"><img src="https://www.tralalere.com/medias/icons/tralalere_logo.png"></a>
+                </div>
+                <div class="d-flex col-6 flex-row-reverse blocRightNav">
+                    <ul>
+                        <li class="langue-menu" (click)="toggleLang()">
+                            <div (click)="changeLanguage(lang)" class="flag selected" *ngFor="let lang of langsActive">
+                                <img class="img-circle" [src]="lang['icon']">
+                                <label>{{lang['label']}}</label>
+                            </div>
+                            <ul class="dropdown" [ngClass]="{'active':active}">
+                                <li *ngFor="let lang of langs">
+                                    <div *ngIf="!lang['active']" (click)="changeLanguage(lang)" class="flag">
+                                        <a title="{{lang['label']}}">
+                                            <img class="img-circle" [src]="lang['icon']">
+                                            <label>{{lang['label']}}</label>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="points-menu">
+                            <button (click)="toggleNav()" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" class="btnBurger navbar-toggler float-right" data-target="#navbarToggleExternalContent" data-toggle="collapse" type="button">
+                                <img alt="icon menu" src="https://www.tralalere.com/medias/icons/icon-nav.svg">
+                            </button>
+                        </li>
+                        <li class="inscription" (click)="login()" *ngIf="!authService.isAuthenticated();"><a>{{ "common.register" | translate }}</a></li>
+                        <li class="connexion" (click)="login()" *ngIf="!authService.isAuthenticated();"><a>{{ "common.connection" | translate }}</a></li>
+                        <li class="connexion" (click)="authService.logOut()" *ngIf="authService.isAuthenticated();"><a>{{ "common.logout" | translate }}</a></li>
+                        <li class="minmenu">
+                            <button type="button" class="navbar-toggle"  [ngClass]="{'change':change}" (click)="toggleNavBar()" >
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar bar1"></span>
+                                <span class="icon-bar bar2"></span>
+                                <span class="icon-bar bar3"></span>
+                            </button>
+                            <ul class="dropdown2" [ngClass]="{'active':change}" >
+                                <li class="inscription" (click)="login()" *ngIf="!authService.isAuthenticated();"><a>{{ "common.register" | translate }}</a></li>
+                                <li class="connexion" (click)="login()" *ngIf="!authService.isAuthenticated();"><a>{{ "common.connection" | translate }}</a></li>
+                                <li class="connexion" (click)="authService.logOut()" *ngIf="authService.isAuthenticated();"><a>{{ "common.logout" | translate }}</a></li>
+                                <li class="langue-menu" (click)="toggleLang()">
+                                    <div (click)="changeLanguage(lang)" class="flag selected" *ngFor="let lang of langsActive">
+                                        <img class="img-circle" [src]="lang['icon']">
+                                        <label>{{lang['label']}}</label>
+                                    </div>
+                                    <ul class="dropdown" [ngClass]="{'active':active}">
+                                        <li *ngFor="let lang of langs">
+                                            <div *ngIf="!lang['active']" (click)="changeLanguage(lang)" class="flag">
+                                                <a title="{{lang['label']}}">
+                                                    <img class="img-circle" [src]="lang['icon']">
+                                                    <label>{{lang['label']}}</label>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        <div class="d-flex col-6 flex-row-reverse blocRightNav">
-          <ul>
-            <li class="langue-menu">
-              <div class="flag selected">
-                <img class="img-circle" src="https://www.tralalere.com/medias/header/fr.svg">
-                <label>fr</label>
-              </div>
-              <ul class="dropdown">
-                <li>
-                  <div class="flag">
-                    <a href="ca" title="ca">
-                      <img class="img-circle" src="https://www.tralalere.com/medias/header/ca.svg">
-                      <label>ca</label>
-                    </a>
-                  </div>
-                </li>
-                <li>
-                  <div class="flag">
-                    <a href="cs" title="cs">
-                      <img class="img-circle" src="https://www.tralalere.com/medias/header/cs.svg">
-                      <label>cs</label>
-                    </a>
-                  </div>
-                </li>
-                <li>
-                  <div class="flag">
-                    <a href="de" title="de">
-                      <img class="img-circle" src="https://www.tralalere.com/medias/header/de.svg">
-                      <label>de</label>
-                    </a>
-                  </div>
-                </li>
-                <li>
-                  <div class="flag">
-                    <a href="el" title="el">
-                      <img class="img-circle" src="https://www.tralalere.com/medias/header/el.svg">
-                      <label>el</label>
-                    </a>
-                  </div>
-                </li>
-                <li>
-                  <div class="flag">
-                    <a href="en" title="en">
-                      <img class="img-circle" src="https://www.tralalere.com/medias/header/en.svg">
-                      <label>en</label>
-                    </a>
-                  </div>
-                </li>
-                <li>
-                  <div class="flag">
-                    <a href="es" title="es">
-                      <img class="img-circle" src="https://www.tralalere.com/medias/header/es.svg">
-                      <label>es</label>
-                    </a>
-                  </div>
-                </li>
-                <li>
-                  <div class="flag">
-                    <a href="fr" title="fr">
-                      <img class="img-circle" src="https://www.tralalere.com/medias/header/fr.svg">
-                      <label>fr</label>
-                    </a>
-                  </div>
-                </li>
-                <li>
-                  <div class="flag">
-                    <a href="it" title="it">
-                      <img class="img-circle" src="https://www.tralalere.com/medias/header/it.svg">
-                      <label>it</label>
-                    </a>
-                  </div>
-                </li>
-                <li>
-                  <div class="flag">
-                    <a href="sl" title="sl">
-                      <img class="img-circle" src="https://www.tralalere.com/medias/header/sl.svg">
-                      <label>sl</label>
-                    </a>
-                  </div>
-                </li>
-                <li>
-                  <div class="flag">
-                    <a href="sv" title="sv">
-                      <img class="img-circle" src="https://www.tralalere.com/medias/header/sv.svg">
-                      <label>sv</label>
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </li>
-            <li class="points-menu">
-              <button (click)="toggleNav()" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" class="btnBurger navbar-toggler float-right" data-target="#navbarToggleExternalContent" data-toggle="collapse" type="button" (click)="toggleClass">
-                <img alt="icon menu" src="https://www.tralalere.com/medias/icons/icon-nav.svg">
-              </button>
-            </li>
-            <li class="inscription"><a href="user/register">Inscription</a></li>
-            <li class="connexion"><a href="user">Connexion</a></li>
-          </ul>
-        </div>
-      </nav>
     </div>
-  </div>
 </div>
+
